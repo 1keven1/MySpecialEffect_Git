@@ -81,11 +81,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _ByDistance: 0.2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EdgeSharpness: 0.0226
     - _EdgeWidth: 0.298
+    - _Float0: 1.732
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -98,10 +100,10 @@ Material:
     - _Mode: 0
     - _Noise: 0.524
     - _OcclusionStrength: 1
-    - _Outline_NoiseStrength: 0.093
+    - _Outline_NoiseStrength: 0.114
     - _Outline_Sharpness: 0.0305
     - _Outline_Smoothness: 0.0357
-    - _Outline_Width: 0.329
+    - _Outline_Width: 0.334
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
