@@ -48,12 +48,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MianColor:
-        m_Texture: {fileID: 2800000, guid: fd033dd8b0519e3439fb70b85d23a9ae, type: 3}
-        m_Scale: {x: 6, y: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 83e7d892f31526a40bdd44154aabc53d, type: 3}
-        m_Scale: {x: 5, y: 2}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -94,25 +94,25 @@ Material:
     - _Lighting_ShadowMin: 0.099
     - _Lighting_ShadowNoiseStrength: 0.133
     - _Lighting_ShadowPos: 0
-    - _Lighting_ShadowSmoothness: 0.099
+    - _Lighting_ShadowSmoothness: 0.213
     - _MC_NoiseStrength: 0.613
     - _Metallic: 0
     - _Mode: 0
     - _Noise: 0.524
     - _OcclusionStrength: 1
-    - _Outline_NoiseStrength: 0.114
+    - _Outline_NoiseStrength: 0.392
     - _Outline_Sharpness: 0.0305
-    - _Outline_Smoothness: 0.0357
-    - _Outline_Width: 0.334
+    - _Outline_Smoothness: 0.0705
+    - _Outline_Width: 0.415
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Strength: 0.1
     - _UVSec: 0
-    - _Whiteline_NoiseStrength: 0.062
-    - _Whiteline_Smoothness: 0.0265
-    - _Whiteline_Width: 0.106
+    - _Whiteline_NoiseStrength: 0.126
+    - _Whiteline_Smoothness: 0.0776
+    - _Whiteline_Width: 0.108
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -121,6 +121,6 @@ Material:
     - _LIghting_ShadowColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 0}
     - _MC_Tint: {r: 1, g: 1, b: 1, a: 1}
     - _MC_Tint1: {r: 1, g: 1, b: 1, a: 1}
-    - _MC_Tint2: {r: 0.5582097, g: 0.5660378, b: 0.36525455, a: 1}
+    - _MC_Tint2: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
     - _Whiteline_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
