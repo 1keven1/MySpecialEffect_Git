@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_InkSkyBox
-  m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
+  m_Name: M_Ink_Fresnel_WorldPosNoise
+  m_Shader: {fileID: 4800000, guid: 9a4f5e5b1b6647b4ba620c2acd3441f9, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BackTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,19 +35,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DownTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _FrontTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LeftTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,6 +47,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MianColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 83e7d892f31526a40bdd44154aabc53d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,49 +63,66 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RightTex:
+    - _Wave_Medium_N:
+        m_Texture: {fileID: 2800000, guid: 689b8318fb9e0d94c8b2dbf5d2128fd9, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Tex:
+    - _unity_SpecCube0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _UpTex:
+    - unity_SpecCube0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AtmosphereThickness: 3.18
     - _BumpScale: 1
+    - _ByDistance: 0.2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 1
+    - _EdgeSharpness: 0.0226
+    - _EdgeWidth: 0.298
+    - _Float0: 1.732
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _ImageType: 0
-    - _Layout: 0
-    - _Mapping: 1
+    - _Lighting_ShadowMin: 0.099
+    - _Lighting_ShadowNoiseStrength: 0.272
+    - _Lighting_ShadowPos: 0
+    - _Lighting_ShadowSmoothness: 0.253
+    - _MC_NoiseStrength: 1
     - _Metallic: 0
-    - _MirrorOnBack: 0
     - _Mode: 0
+    - _Noise: 0.524
+    - _Noise_Tiling: 1
     - _OcclusionStrength: 1
+    - _Outline_NoiseStrength: 0.153
+    - _Outline_Sharpness: 0.0305
+    - _Outline_Smoothness: 0.0836
+    - _Outline_Width: 0.338
     - _Parallax: 0.02
-    - _Rotation: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDisk: 2
-    - _SunSize: 0.062
-    - _SunSizeConvergence: 5.24
+    - _Strength: 0.1
     - _UVSec: 0
+    - _Whiteline_NoiseStrength: 0.163
+    - _Whiteline_Smoothness: 0.0949
+    - _Whiteline_Width: 0.114
     - _ZWrite: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.5959095, g: 0.6603774, b: 0.43859026, a: 1}
-    - _SkyTint: {r: 0, g: 1, b: 0.074404955, a: 1}
-    - _Tint: {r: 0.79985875, g: 0.8113208, b: 0.7225347, a: 1}
+    - _LIghting_ShadowColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 0}
+    - _MC_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _MC_Tint1: {r: 1, g: 1, b: 1, a: 1}
+    - _MC_Tint2: {r: 0.79985875, g: 0.8113208, b: 0.7225347, a: 1}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Whiteline_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
