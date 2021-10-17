@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Ball
+  m_Shader: {fileID: 4800000, guid: 9a4f5e5b1b6647b4ba620c2acd3441f9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MianColor:
+        m_Texture: {fileID: 2800000, guid: fd033dd8b0519e3439fb70b85d23a9ae, type: 3}
+        m_Scale: {x: 5, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 83e7d892f31526a40bdd44154aabc53d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ByDistance: 0.358
+    - _Desaturate: -1
+    - _Lighting_ShadowNoiseStrength: 0.121
+    - _Lighting_ShadowPos: 0
+    - _Lighting_ShadowSmoothness: 0.115
+    - _MC_Alpha: 1
+    - _MC_NoiseStrength: 0.602
+    - _Noise_Tiling: 0.7
+    - _Outline_NoiseStrength: 0.192
+    - _Outline_Smoothness: 0.1
+    - _Outline_Width: 0.145
+    - _Whiteline_NoiseStrength: 0.094
+    - _Whiteline_Smoothness: 0.0941
+    - _Whiteline_Width: 0.201
+    - __dirty: 0
+    m_Colors:
+    - _LIghting_ShadowColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 0}
+    - _MC_Tint1: {r: 1, g: 1, b: 1, a: 1}
+    - _MC_Tint2: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Paper_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
