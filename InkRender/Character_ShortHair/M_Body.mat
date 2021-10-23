@@ -71,14 +71,22 @@ Material:
     - _BumpScale: 1
     - _ByDistance: 0.5
     - _Cutoff: 0.5
+    - _Desaturate: -0.44
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Fade: 0.414
+    - _Fade_Max: 1
+    - _Fade_Min: 0
+    - _Fade_Normal_Max: 0.871
+    - _Fade_Normal_Min: 0.336
+    - _Fade_Smoothness: 0.207
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Lighting_ShadowNoiseStrength: 0.256
     - _Lighting_ShadowPos: 0
     - _Lighting_ShadowSmoothness: 0.136
+    - _MC_Alpha: 0.971
     - _MC_NoiseStrength: 0.327
     - _Metallic: 0
     - _Mode: 0
@@ -88,21 +96,28 @@ Material:
     - _Outline_Smoothness: 0.0832
     - _Outline_Width: 0.358
     - _Parallax: 0.02
+    - _Saturate: 0.307
+    - _Saturate1: 1
+    - _Saturate_Smoothness: 0.278
+    - _Saturate_Smoothness1: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _Whiteline_NoiseStrength: 0.142
     - _Whiteline_Smoothness: 0.05
-    - _Whiteline_Width: 0.047
+    - _Whiteline_Width: 0.146
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LIghting_ShadowColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 0}
+    - _LIghting_ShadowColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0}
     - _MC_Tint1: {r: 1, g: 1, b: 1, a: 1}
     - _MC_Tint2: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+    - _Normal: {r: 1, g: 1, b: 1, a: 0}
+    - _NormalBias: {r: 1, g: 1, b: 1, a: 0}
     - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Paper_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Whiteline_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
